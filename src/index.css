@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+article {
+  position: absolute;
+  width: 100%;
+}
+
+article img {
+  width: 150px;
+  margin: 0 auto;
+}
+
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+article.activeSlide {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+article.prevSlide {
+  transform: translateX(-100%);
+}

@@ -1,0 +1,13 @@
+/*need to see how to bring in to slider.js */
+
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+article.activeSlide {
+  transform: translateX(0);
+}
+
+article.prevSlide {
+  transform: translateX(-100%);
+}
