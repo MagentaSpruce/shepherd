@@ -1,11 +1,17 @@
 import { useRef, useState } from 'react';
 import Button from '../ui/Button';
 import Input from '../ui/Input';
+import Alert from './Alert';
 
 function Form({ getFormData }) {
   const nameRef = useRef();
   const emailRef = useRef();
   const [submitting, isSubmitting] = useState(false);
+  const [alert, setAlert] = useState({
+    show: false,
+    msg: '',
+    type: '',
+  });
 
   const handleSubmit = e => {
     isSubmitting(true);
@@ -24,11 +30,17 @@ function Form({ getFormData }) {
     emailRef.current.value = '';
     getFormData(formData);
     isSubmitting(false);
+    showAlert('success', 'Results submitted', true);
+  };
+
+  const showAlert = (type = '', msg = '', show = false) => {
+    setAlert({ show: show, type: type, msg: msg });
   };
 
   return (
     <div className="bg-red-300 w-[90vw]  max-w-lg mx-auto p-2 text-center">
       <form onSubmit={handleSubmit} className="p-2 bg-blue-300 ">
+        {alert.show && <Alert {...alert} showAlert={showAlert} />}
         <div className="mb-2">
           <label htmlFor="name" className="">
             Name:
