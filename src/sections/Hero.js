@@ -25,7 +25,7 @@ const Hero = () => {
           </h2>
         </div>
         <blockquote className="text-amber-700 mb-[15vh] font-light text-xl ">
-          A fantastically written epic adventure
+          The first in a trilogy
         </blockquote>
         <div className="">
           <Button className="px-4 py-3 bg-amber-400 rounded-md text-amber-900 font-bold mb-[37vh] text-2xl">

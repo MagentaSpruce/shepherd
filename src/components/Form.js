@@ -38,10 +38,10 @@ function Form({ getFormData }) {
   };
 
   return (
-    <div className="bg-red-300 w-[90vw]  max-w-lg mx-auto p-2 text-center">
-      <form onSubmit={handleSubmit} className="p-2 bg-blue-300 ">
+    <div className="bg-red-300 w-[90vw] h-[20vh] max-w-lg mx-auto p-2 text-center">
+      <form onSubmit={handleSubmit} className="p-2 bg-blue-300 h-[18vh] ">
         {alert.show && <Alert {...alert} showAlert={showAlert} />}
-        <div className="mb-2">
+        <div className="mb-2 p-1 flex justify-center">
           <label htmlFor="name" className="">
             Name:
           </label>
@@ -57,7 +57,7 @@ function Form({ getFormData }) {
             ref={nameRef}
           />
         </div>
-        <div>
+        <div className="p-1 flex justify-center">
           <label htmlFor="email">Email: </label>
 
           <input
@@ -71,7 +71,7 @@ function Form({ getFormData }) {
           />
         </div>
         <Button
-          className="text-center bg-indigo-500 rounded-lg shadow-lg px-2  mt-2 shadow-indigo-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider
+          className="text-center bg-indigo-500 rounded-lg shadow-lg px-2  mt-2 shadow-indigo-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider 
           "
           type="submit"
           disabled={submitting}

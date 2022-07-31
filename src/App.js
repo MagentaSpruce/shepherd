@@ -3,6 +3,7 @@ import Call2Action from './sections/Call2Action';
 import Hero from './sections/Hero';
 import Sample from './sections/Sample';
 import Testimonials from './sections/Testimonials';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Sample />
       <Testimonials />
       <Call2Action />
+      <Footer />
     </>
   );
 }

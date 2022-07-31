@@ -1,3 +1,4 @@
+import Email from '../components/Email';
 import Form from '../components/Form';
 //add a state value for alert for when form is submitted success/error
 function Call2Action() {
@@ -14,7 +15,21 @@ function Call2Action() {
     );
   };
 
-  return <Form getFormData={getFormData} />;
+  return (
+    <section className="w-[100vw] max-w-[1200px] mx-auto h-[100vh] bg-green-400 text-center font-economica">
+      <div className="pt-2 text-xl">
+        <h2>Readers Area</h2>
+      </div>
+      <h3 className="text-center p-2">
+        Please provide your name and email if you would like to be notified of
+        future releases.
+      </h3>
+      <Form getFormData={getFormData} />
+      <div className="pt-4">
+        <Email />
+      </div>
+    </section>
+  );
 }
 
 export default Call2Action;
