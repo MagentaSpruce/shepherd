@@ -20,7 +20,10 @@ const About = () => {
             alt=""
             className="h-[20vh] w-[30vw] sepia brightness-110"
           />
-          <p className="indent-2  mt-2">
+          <p
+            className="indent-2  mt-2
+          sm:text-lg sm:mt-3"
+          >
             A young shepherd boy living between the no mans land of civilzation
             and beyond is taken and made slave by an invading army enroute to
             his homeland.
@@ -29,7 +32,8 @@ const About = () => {
         <div className="flex justify-between border-amber-500 border-4 mb-4 rounded-md">
           <p
             className="
-          p-1"
+          p-1
+          sm:text-lg sm:mt-2"
           >
             Led by an undefeated general with a penchant for cruelty, this
             unassuming adolescent careens his way into the commanders good
@@ -39,9 +43,12 @@ const About = () => {
         </div>
         <div className="flex  border-amber-500 border-4 mb-4 rounded-md">
           <img src={img3} alt="" className=" h-[20vh] w-[30vw] sepia-[.55]" />
-          <p className="p-1 mt-1">
+          <p
+            className="p-1 mt-1
+          sm:text-lg sm:mt-2"
+          >
             Finding out only all too late that the little shepherd boy was much
-            more than what he seemed, the unconquerable general is led into his
+            more than what he seemed, the unconquerable general is led to his
             doom.
           </p>
         </div>
@@ -51,16 +58,25 @@ const About = () => {
       </h3>
       <div className="flex justify-center gap-5 mt-[4vh] font-semibold">
         <div className="flex flex-col justify-center items-center ">
-          <GiBookCover className="text-5xl text-orange-300" />
-          <p>78000+ words</p>
+          <GiBookCover
+            className="text-5xl text-orange-300
+          sm:text-6xl"
+          />
+          <p className="sm:text-lg">78000+ words</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <MdInfo className="text-5xl text-orange-300" />
-          <p>Historical Fiction</p>
+          <MdInfo
+            className="text-5xl text-orange-300
+          sm:text-6xl"
+          />
+          <p className="sm:text-lg">Historical Fiction</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <GoPerson className="text-5xl text-orange-300" />
-          <p>Ages 14+ </p>
+          <GoPerson
+            className="text-5xl text-orange-300
+          sm:text-6xl"
+          />
+          <p className="sm:text-lg">Ages 14+ </p>
         </div>
       </div>
     </section>

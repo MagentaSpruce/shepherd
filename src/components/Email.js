@@ -7,10 +7,17 @@ const Email = () => {
   };
   return (
     <div className="bg-orange-600 h-[30rem]    max-w-xl">
-      <h2 className="text-xl">Email the author</h2>
+      <h2
+        className="text-xl
+      xp:mb-2
+      sm:text-2xl"
+      >
+        Email the Author
+      </h2>
       <form
         onSubmit={handleSubmit}
-        className="w-[90vw] max-w-lg p-2 bg-orange-300 mx-auto h-[26rem]  border-amber-500 border-4 rounded-md"
+        className="w-[90vw] max-w-lg p-2 bg-orange-300 mx-auto h-[26rem]  border-amber-500 border-4 rounded-md
+        sm:text-lg sm:h-[29.5rem]"
       >
         <div className="p-2 flex justify-center">
           <label htmlFor="name">Name:&nbsp;</label>
@@ -47,7 +54,8 @@ const Email = () => {
         </div>
 
         <Button
-          className="px-3 py-1 text-center rounded-lg shadow-lg   mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider bg-orange-600 text-orange-300 font-semibold"
+          className="px-3 py-1 text-center rounded-lg shadow-lg   mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider bg-orange-600 text-orange-300 font-semibold
+          xp:py-2 xp:px-4"
           type="submit"
         >
           Send

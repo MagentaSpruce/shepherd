@@ -9,7 +9,14 @@ function Alert({ type, msg, showAlert }) {
     return () => clearTimeout(timer);
   }, []);
 
-  return <p className={`alert alert-${type}`}>{msg}</p>;
+  return (
+    <p
+      className={`alert alert-${type}
+  sm:text-lg`}
+    >
+      {msg}
+    </p>
+  );
 }
 
 export default Alert;

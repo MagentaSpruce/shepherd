@@ -38,19 +38,26 @@ function Form({ getFormData }) {
   };
 
   return (
-    <div className="bg-amber-500 w-[90vw] h-[20vh] max-w-lg mx-auto p-2 text-center rounded-md">
+    <div
+      className="bg-amber-500 w-[90vw] h-[20vh] max-w-lg mx-auto p-2 text-center rounded-md
+    xs:h-[22vh]
+    xp:h-[20vh]"
+    >
       <form
         onSubmit={handleSubmit}
-        className="p-2 bg-orange-300 h-[18vh]  rounded-md"
+        className="p-2 bg-orange-300 h-[18vh]  rounded-md
+        xs:h-[20vh]
+        xp:h-[18vh]"
       >
         {alert.show && <Alert {...alert} showAlert={showAlert} />}
         <div className="mb-2 p-1 flex justify-center">
-          <label htmlFor="name" className="">
+          <label htmlFor="name" className="sm:text-lg">
             Name:
           </label>
           &nbsp;
           <input
-            className="w-[80%] rounded-lg indent-1 bg-orange-100"
+            className="w-[80%] rounded-lg indent-1 bg-orange-100
+            sm:text-lg"
             type="text"
             name="name"
             id="name"
@@ -61,10 +68,13 @@ function Form({ getFormData }) {
           />
         </div>
         <div className="p-1 flex justify-center">
-          <label htmlFor="email">Email: </label>
+          <label className="sm:text-lg" htmlFor="email">
+            Email:{' '}
+          </label>
           &nbsp;
           <input
-            className="w-[80%] rounded-lg indent-1 bg-orange-100 "
+            className="w-[80%] rounded-lg indent-1 bg-orange-100
+            sm:text-lg "
             type="email"
             name="email"
             id="email"
@@ -76,6 +86,7 @@ function Form({ getFormData }) {
         {!alert.show && (
           <Button
             className="text-center bg-orange-600 rounded-lg shadow-md px-3 py-1  mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider text-orange-300 font-semibold
+            xp:mt-4
           "
             type="submit"
             disabled={submitting}

@@ -56,9 +56,13 @@ const Slider = () => {
             </article>
           );
         })}
-        <div className="flex justify-between h-[3rem] gap-[50vw] mt-44 z-10">
+        <div
+          className="flex justify-between h-[3rem] gap-[50vw] mt-44 z-10
+        xp:gap-[48vw]"
+        >
           <Button
-            className="p-3 ml-2 rounded-md bg-amber-500 text-orange-700 hover:scale-105 active:scale-100"
+            className="p-3 ml-2 rounded-md bg-amber-500 text-orange-700 hover:scale-105 active:scale-100 
+            xp:ml-4"
             onClick={() => setIndex(index - 1)}
           >
             <BsChevronLeft />

@@ -16,8 +16,15 @@ const Hero = () => {
             </a>
           </p>
         </div>
-        <div className=" pt-[10vh] mb-[31vh]">
-          <h1 className="text-5xl text-orange-700 font-playfair font-bold">
+        <div
+          className=" pt-[10vh] mb-[31vh]
+        sm:mb-[26vh]"
+        >
+          <h1
+            className="text-5xl text-orange-700 font-playfair font-bold
+          sm:mt-14
+          sm:text-6xl"
+          >
             The Shepherd
           </h1>
           <h2 className="text-amber-700  mb-[8vh] text-3xl">
@@ -26,7 +33,12 @@ const Hero = () => {
         </div>
 
         <div className="">
-          <Button className="px-4 py-4 bg-orange-700 rounded-md shadow-md shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center ">
+          <Button
+            className="px-4 py-4 bg-orange-700 rounded-md shadow-md shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center
+          xs:mb-[24vh] 
+          xp:mb-[30vh]
+          sm:tracking-wide"
+          >
             Buy now
           </Button>
         </div>
