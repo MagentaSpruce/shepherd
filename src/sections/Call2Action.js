@@ -16,11 +16,11 @@ function Call2Action() {
   };
 
   return (
-    <section className="w-[100vw] max-w-[1200px] mx-auto h-[100vh] bg-green-400 text-center font-economica">
-      <div className="pt-2 text-xl">
+    <section className="w-[100vw] max-w-[1200px] mx-auto h-[100vh] bg-orange-600 text-center ">
+      <div className="pt-2 text-2xl font-semibold ">
         <h2>Readers Area</h2>
       </div>
-      <h3 className="text-center p-2">
+      <h3 className="text-center p-2 ">
         Please provide your name and email if you would like to be notified of
         future releases.
       </h3>

@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         economica: 'Economica, sans-serif',
         playfair: 'Playfair Display SC, serif',
+        rubik: ['Rubik, sans-serif'],
       },
       screens: {
         sm: '400px',

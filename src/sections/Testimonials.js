@@ -2,10 +2,12 @@ import Slider from '../components/Slider';
 
 const Testimonials = () => {
   return (
-    <section className="w-[100vw] h-[100vh] max-w-[1200px] bg-green-200 mx-auto">
-      <h2 className="pt-2 text-center text-2xl">Book Reviews</h2>
+    <section className="w-[100vw] h-[100vh] max-w-[1200px] bg-orange-600 mx-auto">
+      <h2 className="pt-2 text-center text-2xl font-semibold mb-2">
+        Reader Reviews
+      </h2>
       <Slider />
-      <div className="border border-black p-2 mt-[2vh] w-[60vw] max-w-[400px] mx-auto">
+      <div className="border border-black p-2 mt-[2vh] w-[70vw] max-w-[400px] mx-auto text-center rounded-lg">
         <p>
           95% of all author profits for every book sold will be expressly used
           for helping to win in the fight to #FreeAshley.
@@ -16,7 +18,7 @@ const Testimonials = () => {
           You can read about <i>her</i> story here:{' '}
         </p>
         <a
-          className="mx-auto"
+          className="mx-auto text-amber-400 tracking-wide"
           href="www.freeashley.org"
           target="_blank"
           rel="noreferrer"
