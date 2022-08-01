@@ -1,9 +1,13 @@
 import Button from '../ui/Button';
 const Hero = () => {
   return (
-    <>
-      <header className="p-2 overflow-x-hidden overflow-y-hidden  text-center">
-        <div className="font-thin">
+    <div className="bg-orange-600">
+      <header
+        className="p-2 overflow-x-hidden overflow-y-hidden  text-center 
+        
+      "
+      >
+        <div className="font-thin lg:text-lg">
           <p className=" font-economica text-orange-200 ">
             Written in dedication of{' '}
             <a
@@ -18,31 +22,53 @@ const Hero = () => {
         </div>
         <div
           className=" pt-[10vh] mb-[31vh]
-        sm:mb-[26vh]"
+        sm:mb-[26vh]
+        ms:mb-[19vh]
+        mx:mb-[23vh]
+        lg:-mt-28
+        ll:-mt-28
+        xx:-mt-16
+        "
         >
           <h1
             className="text-5xl text-orange-700 font-playfair font-bold
           sm:mt-14
-          sm:text-6xl"
+          sm:text-6xl
+          mx:text-7xl mx:mt-24
+          "
           >
             The Shepherd
           </h1>
-          <h2 className="text-amber-700  mb-[8vh] text-3xl">
+          <h2
+            className="text-amber-700  mb-[8vh] text-3xl
+          mx:text-4xl"
+          >
             A Bronze Age Tale
           </h2>
         </div>
 
         <div className="">
           <Button
-            className="px-4 py-4 bg-orange-700 rounded-md shadow-md shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center
+            className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center
           xs:mb-[24vh] 
           xp:mb-[30vh]
-          sm:tracking-wide"
+          sm:tracking-wide sm:px-4 sm:py-4
+          ms:mb-[29vh]
+          mx:mb-[32vh]
+          ll:mt-[0vh] ll:mb-[33vh]
+          
+          "
           >
-            Buy now
+            Buy Now
           </Button>
         </div>
-        <div className="text-orange-200">
+        <div
+          className="text-orange-200
+        lg:-mt-10
+        ll:-mt-11
+        xx:-mt-6
+        "
+        >
           <p>Authored by: Tristan Nettles</p>
           <p>
             Published by:{' '}
@@ -57,7 +83,7 @@ const Hero = () => {
           </p>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 

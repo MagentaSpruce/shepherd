@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Button from '../ui/Button';
 
 const Email = () => {
@@ -6,11 +5,17 @@ const Email = () => {
     e.preventDefault();
   };
   return (
-    <div className="bg-orange-600 h-[30rem]    max-w-xl">
+    <div
+      className="bg-orange-600 h-[30rem]    max-w-xl mx-auto
+      
+    "
+    >
       <h2
-        className="text-xl
+        className="text-xl mb-1
       xp:mb-2
-      sm:text-2xl"
+      sm:text-2xl
+      ms:-mt-4
+      ll:mt-0"
       >
         Email the Author
       </h2>
@@ -48,7 +53,8 @@ const Email = () => {
             id="message"
             cols="35"
             rows="10"
-            className="rounded-md indent-1 bg-orange-100"
+            className="rounded-md indent-1 bg-orange-100
+            "
             placeholder="Write message here..."
           ></textarea>
         </div>

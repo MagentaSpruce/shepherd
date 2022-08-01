@@ -55,7 +55,7 @@ header {
   position: relative;
   height: 100vh;
   width: 100vw;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   filter: sepia(0.1);
   filter: brightness(120%);
@@ -73,11 +73,4 @@ header::after {
   /* background: rgba(0, 0, 0, 0.2);
 
   box-shadow: inset 8rem 6rem 20rem #000, inset -8rem -6rem 20rem #000; */
-}
-
-@media only screen and (min-width: 500px) {
-  header {
-    background-size: 100% 97%;
-    height: 100vh;
-  }
 }

@@ -19,9 +19,10 @@ module.exports = {
       },
       screens: {
         sm: '400px',
-
-        // 'ms': '539px',
-        // 'mx': '767px',
+        ms: '539px',
+        mx: '767px',
+        ll: '1023px',
+        xx: '1279px',
       },
       flex: {
         2: '2 2 0%',

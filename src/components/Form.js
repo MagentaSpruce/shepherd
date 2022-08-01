@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import Button from '../ui/Button';
-import Input from '../ui/Input';
+// import Input from '../ui/Input';
 import Alert from './Alert';
 
 function Form({ getFormData }) {
@@ -41,23 +41,36 @@ function Form({ getFormData }) {
     <div
       className="bg-amber-500 w-[90vw] h-[20vh] max-w-lg mx-auto p-2 text-center rounded-md
     xs:h-[22vh]
-    xp:h-[20vh]"
+    xp:h-[20vh]
+    ms:h-[23vh]
+    ll:h-[36vh]
+    xx:h-[25vh]
+    "
     >
       <form
         onSubmit={handleSubmit}
         className="p-2 bg-orange-300 h-[18vh]  rounded-md
         xs:h-[20vh]
-        xp:h-[18vh]"
+        xp:h-[18vh]
+        ms:h-[21vh]
+        ll:h-[33vh]
+        xx:h-[22.5vh]
+        "
       >
         {alert.show && <Alert {...alert} showAlert={showAlert} />}
         <div className="mb-2 p-1 flex justify-center">
-          <label htmlFor="name" className="sm:text-lg">
+          <label
+            htmlFor="name"
+            className="sm:text-lg
+          mx:text-xl mx:mt-4"
+          >
             Name:
           </label>
           &nbsp;
           <input
             className="w-[80%] rounded-lg indent-1 bg-orange-100
-            sm:text-lg"
+            sm:text-lg
+            mx:text-xl mx:mt-4"
             type="text"
             name="name"
             id="name"
@@ -67,14 +80,19 @@ function Form({ getFormData }) {
             ref={nameRef}
           />
         </div>
-        <div className="p-1 flex justify-center">
-          <label className="sm:text-lg" htmlFor="email">
+        <div className="p-1 flex justify-center mx:mt-4">
+          <label
+            className="sm:text-lg
+          mx:text-xl"
+            htmlFor="email"
+          >
             Email:{' '}
           </label>
           &nbsp;
           <input
             className="w-[80%] rounded-lg indent-1 bg-orange-100
-            sm:text-lg "
+            sm:text-lg 
+            mx:text-xl"
             type="email"
             name="email"
             id="email"
@@ -87,6 +105,8 @@ function Form({ getFormData }) {
           <Button
             className="text-center bg-orange-600 rounded-lg shadow-md px-3 py-1  mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider text-orange-300 font-semibold
             xp:mt-4
+            mx:text-xl mx:mt-8
+            xx:mt-4
           "
             type="submit"
             disabled={submitting}
