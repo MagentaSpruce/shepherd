@@ -7,14 +7,14 @@ import { GoPerson } from 'react-icons/go';
 const About = () => {
   return (
     <section className="w-[100vw] max-w-[600px] h-[100vh] bg-orange-600 mx-auto">
-      <h1 className="text-center text-2xl font-economica font-bold pt-2 text-slate-900">
+      <h1 className="text-center text-2xl font-economica font-bold pt-2 ">
         Synopsis
       </h1>
       <div
-        className="p-2 text-center text-slate-900
+        className="p-2 text-center 
       "
       >
-        <div className="flex border border-black mb-4 ">
+        <div className="flex border-amber-500 border-4 mb-4 rounded-md">
           <img
             src={img1}
             alt=""
@@ -26,7 +26,7 @@ const About = () => {
             his homeland.
           </p>
         </div>
-        <div className="flex justify-between border border-black mb-4">
+        <div className="flex justify-between border-amber-500 border-4 mb-4 rounded-md">
           <p
             className="
           p-1"
@@ -37,19 +37,19 @@ const About = () => {
           </p>
           <img src={img2} alt="" className="h-[20vh] w-[30vw] sepia-[.70]" />
         </div>
-        <div className="flex border border-black mb-4">
+        <div className="flex  border-amber-500 border-4 mb-4 rounded-md">
           <img src={img3} alt="" className=" h-[20vh] w-[30vw] sepia-[.55]" />
           <p className="p-1 mt-1">
             Finding out only all too late that the little shepherd boy was much
-            more than what he seemed, the unconquerable general is led to his
+            more than what he seemed, the unconquerable general is led into his
             doom.
           </p>
         </div>
       </div>
-      <h3 className="text-center text-2xl underline underline-offset-[6px]">
+      <h3 className="text-center text-2xl underline underline-offset-[6px] pt-2">
         At a glance
       </h3>
-      <div className="flex justify-center gap-5 mt-[5vh] font-semibold">
+      <div className="flex justify-center gap-5 mt-[4vh] font-semibold">
         <div className="flex flex-col justify-center items-center ">
           <GiBookCover className="text-5xl text-orange-300" />
           <p>78000+ words</p>

@@ -6,7 +6,7 @@ const Sample = () => {
       <h2 className="text-center pt-2 text-2xl mb-2 font-medium">
         Read an excerpt:
       </h2>
-      <div className="w-[95vw] max-w-[800px] h-[90vh] bg-yellow-200 mx-auto">
+      <div className="w-[95vw] max-w-[800px] h-[90vh] bg-yellow-200 mx-auto rounded-md">
         <Embedder
         // source="https://docs.google.com/document/d/1wukTZxD-AaalhSqJC5UlWg4e1_wnsmr9hgpg942LNE4/edit?usp=sharing"
         />

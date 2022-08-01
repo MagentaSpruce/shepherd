@@ -38,7 +38,7 @@ const Embedder = ({ source }) => {
           retainURLParams: false,
         },
       }}
-      className="h-[680px]"
+      className="h-[680px] border-4 rounded-md  border-amber-500"
     />
   );
 };

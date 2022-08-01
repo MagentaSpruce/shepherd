@@ -4,19 +4,19 @@ const Hero = () => {
     <>
       <header className="p-2 overflow-x-hidden overflow-y-hidden  text-center">
         <div className="font-thin">
-          <p className=" font-economica text-zinc-200 ">
+          <p className=" font-economica text-orange-200 ">
             Written in dedication of{' '}
             <a
               href="https://www.freeashley.org"
               target="_blank"
               rel="noreferrer"
-              className="text-yellow-400 tracking-wide "
+              className="text-yellow-500 tracking-wide "
             >
               Ashley Oosthuizen
             </a>
           </p>
         </div>
-        <div className=" pt-[10vh]">
+        <div className=" pt-[10vh] mb-[31vh]">
           <h1 className="text-5xl text-orange-700 font-playfair font-bold">
             The Shepherd
           </h1>
@@ -24,15 +24,13 @@ const Hero = () => {
             A Bronze Age Tale
           </h2>
         </div>
-        <h3 className="text-amber-700 mb-[17vh] font-semibold text-xl ">
-          The first in a trilogy series
-        </h3>
+
         <div className="">
-          <Button className="px-4 py-3 bg-orange-700 rounded-md text-orange-300 font-bold mb-[31vh] text-2xl">
+          <Button className="px-4 py-4 bg-orange-700 rounded-md shadow-md shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center ">
             Buy now
           </Button>
         </div>
-        <div className="text-zinc-200">
+        <div className="text-orange-200">
           <p>Authored by: Tristan Nettles</p>
           <p>
             Published by:{' '}
