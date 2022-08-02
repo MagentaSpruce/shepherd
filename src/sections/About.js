@@ -13,6 +13,7 @@ const About = () => {
       lg:h-[165vh]
       ll:h-[165vh]
       xx:h-[160vh]
+      rr:h-[155vh]
       "
       >
         <h1

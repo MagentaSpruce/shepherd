@@ -12,6 +12,7 @@ const Testimonials = () => {
     mx:h-[85vh]
     ll:h-[145vh]
     xx:h-[133vh]
+    rr:h-[123vh]
     "
       >
         <h2

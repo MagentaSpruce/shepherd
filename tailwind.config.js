@@ -23,6 +23,7 @@ module.exports = {
         mx: '767px',
         ll: '1023px',
         xx: '1279px',
+        rr: '1535px',
       },
       flex: {
         2: '2 2 0%',

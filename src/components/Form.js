@@ -45,6 +45,7 @@ function Form({ getFormData }) {
     ms:h-[23vh]
     ll:h-[36vh]
     xx:h-[30vh]
+    rr:h-[28vh]
     "
     >
       <form
@@ -55,6 +56,7 @@ function Form({ getFormData }) {
         ms:h-[21vh]
         ll:h-[33vh]
         xx:h-[27.5vh]
+        rr:h-[25.5vh]
         "
       >
         {alert.show && <Alert {...alert} showAlert={showAlert} />}

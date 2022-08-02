@@ -26,6 +26,7 @@ const Hero = () => {
         ms:mb-[19vh]
         mx:mb-[23vh]
         ll:-mt-28
+        rr:-mt-36
         
         "
         >
