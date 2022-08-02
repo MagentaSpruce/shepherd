@@ -25,9 +25,8 @@ const Hero = () => {
         sm:mb-[23vh]
         ms:mb-[19vh]
         mx:mb-[23vh]
-        lg:-mt-28
         ll:-mt-28
-        xx:-mt-16
+        
         "
         >
           <h1
@@ -52,7 +51,7 @@ const Hero = () => {
             className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center
           xs:mb-[24vh] 
           xp:mb-[30vh]
-          sm:tracking-wide sm:px-4 sm:py-4 sm:mb-[31vh]
+          sm:tracking-wide sm:px-4 sm:py-4 sm:mb-[30vh]
           ms:mb-[29vh]
           mx:mb-[32vh]
           ll:mt-[0vh] ll:mb-[33vh]

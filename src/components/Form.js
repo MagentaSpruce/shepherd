@@ -44,7 +44,7 @@ function Form({ getFormData }) {
     xp:h-[20vh]
     ms:h-[23vh]
     ll:h-[36vh]
-    xx:h-[25vh]
+    xx:h-[30vh]
     "
     >
       <form
@@ -54,7 +54,7 @@ function Form({ getFormData }) {
         xp:h-[18vh]
         ms:h-[21vh]
         ll:h-[33vh]
-        xx:h-[22.5vh]
+        xx:h-[27.5vh]
         "
       >
         {alert.show && <Alert {...alert} showAlert={showAlert} />}
@@ -104,7 +104,7 @@ function Form({ getFormData }) {
         {!alert.show && (
           <Button
             className="text-center bg-orange-600 rounded-lg shadow-md px-3 py-1  mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider text-orange-300 font-semibold
-            xp:mt-4
+            xp:mt-3
             sm:mt-2
             mx:text-xl mx:mt-8
             xx:mt-4

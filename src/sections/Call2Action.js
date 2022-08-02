@@ -21,12 +21,12 @@ function Call2Action() {
       <section
         className="w-[100vw] max-w-[1200px] mx-auto h-[100vh] bg-orange-600 text-center
     xs:h-[110vh] 
-    sm:h-[115vh]
-    xp:h-[100vh]
+    sm:h-[112vh]
+    xp:h-[103vh]
     ms:h-[120vh]
     mx:h-[92vh]
     ll:h-[150vh]
-    xx:h-[115vh]"
+    xx:h-[138vh]"
       >
         <div
           className="pt-2 text-2xl font-semibold 

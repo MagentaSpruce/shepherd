@@ -12,7 +12,7 @@ const About = () => {
         sm:h-[103vh]
       lg:h-[165vh]
       ll:h-[165vh]
-      xx:h-[150vh]
+      xx:h-[160vh]
       "
       >
         <h1
@@ -38,11 +38,11 @@ const About = () => {
             <p
               className="indent-2  mt-2
           xp:mt-4 xp:px-2
-          sm:text-lg sm:mt-3
+          sm:text-lg sm:mt-2
           mx:text-2xl
           lg:mt-1
           ll:mt-4
-          xx:mt-8
+          xx:mt-4
 
           "
             >
@@ -60,7 +60,7 @@ const About = () => {
           ms:mt-3
           mx:text-2xl
           ll:mt-3
-          xx:mt-9
+          xx:mt-4
           "
             >
               Led by an undefeated general with a penchant for cruelty, this
@@ -88,7 +88,7 @@ const About = () => {
           ms:mt-3 ms:px-2
           mx:text-2xl
           ll:mt-4
-          xx:mt-9
+          xx:mt-4
           
           "
             >

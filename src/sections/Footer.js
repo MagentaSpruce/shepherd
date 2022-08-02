@@ -11,7 +11,7 @@ const Footer = () => {
     xp:h-[15vh]
     ms:h-[20vh]
     ll:h-[32vh]
-    xx:h-[27vh]
+    xx:h-[35vh]
     "
       >
         <div
@@ -67,7 +67,8 @@ const Footer = () => {
         </div>
         <p
           className="text-center -mt-2 ml-2 text-sm text-orange-600
-      mx:ml-8"
+      mx:ml-8
+      xx:ml-6"
         >
           {year}
         </p>

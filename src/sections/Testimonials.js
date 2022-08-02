@@ -6,12 +6,12 @@ const Testimonials = () => {
       <section
         className="w-[100vw] h-[117vh] max-w-[1200px] bg-orange-600 mx-auto
     xs:h-[128vh]
-    xp:h-[108vh]
+    xp:h-[116vh]
     sm:h-[120vh]
     ms:h-[115vh]
     mx:h-[85vh]
     ll:h-[145vh]
-    xx:h-[110vh]
+    xx:h-[133vh]
     "
       >
         <h2
