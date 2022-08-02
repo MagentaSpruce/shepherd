@@ -1,9 +1,23 @@
+import emailjs from '@emailjs/browser';
 import Button from '../ui/Button';
 
 const Email = () => {
-  const handleSubmit = e => {
+  function sendEmail(e) {
     e.preventDefault();
-  };
+
+    emailjs
+      .sendForm(
+        'service_qxc0f31',
+        'template_5kfpbfh',
+        e.target,
+        'user_HcxYpkAMyFpXwPy6bVPPe'
+      )
+      .then(res => {
+        window.location.href = '/';
+        console.log(res);
+      })
+      .catch(err => console.log(err));
+  }
   return (
     <div
       className="bg-orange-600 h-[30rem]    max-w-xl mx-auto
@@ -20,7 +34,7 @@ const Email = () => {
         Email the Author
       </h2>
       <form
-        onSubmit={handleSubmit}
+        onSubmit={sendEmail}
         className="w-[90vw] max-w-lg p-2 bg-orange-300 mx-auto h-[26rem]  border-amber-500 border-4 rounded-md
         sm:text-lg sm:h-[29.5rem]"
       >

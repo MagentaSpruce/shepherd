@@ -26,7 +26,8 @@ function Call2Action() {
     ms:h-[120vh]
     mx:h-[92vh]
     ll:h-[150vh]
-    xx:h-[138vh]"
+    xx:h-[138vh]
+    rr:h-[122vh]"
       >
         <div
           className="pt-2 text-2xl font-semibold 

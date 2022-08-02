@@ -12,7 +12,7 @@ const Testimonials = () => {
     mx:h-[85vh]
     ll:h-[145vh]
     xx:h-[133vh]
-    rr:h-[123vh]
+    rr:h-[115vh]
     "
       >
         <h2
@@ -56,8 +56,8 @@ const Testimonials = () => {
         <div className="text-center">
           <Button
             className="px-3 py-3 bg-orange-300  shadow-xl shadow-amber-500 text-orange-500 font-bold mb-[28vh] text-2xl text-center border-4 border-amber-500
-          mt-7 rounded-xl
-          sm:tracking-wide hover:scale-105 active:scale-100
+          mt-7 rounded-xl hover:scale-110 active:scale-100 cursor-pointer transition-all
+          sm:tracking-wide 
           mx:px-4 mx:py-4 mx:mt-10"
           >
             Buy Now

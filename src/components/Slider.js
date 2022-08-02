@@ -80,18 +80,19 @@ const Slider = () => {
         mx:gap-[60.5vw]
         ll:gap-[45.5vw]
         xx:gap-[36.2vw]
-        rr:gap-[25vw]
+        rr:gap-[30vw]
         "
         >
           <Button
-            className="p-3 ml-2 rounded-md bg-amber-500 text-orange-700 hover:scale-105 active:scale-100 
+            className="p-3 ml-2 rounded-md bg-amber-500 text-orange-700 hover:scale-105 active:scale-100 transition-all
             xp:ml-4"
             onClick={() => setIndex(index - 1)}
           >
             <BsChevronLeft />
           </Button>
           <Button
-            className="p-3 bg-amber-500 rounded-md text-orange-700 cursor-pointer hover:scale-105 active:scale-100"
+            className="p-3 bg-amber-500 rounded-md text-orange-700 cursor-pointer hover:scale-105 active:scale-100
+            transition-all"
             onClick={() => setIndex(index + 1)}
           >
             <BsChevronRight />

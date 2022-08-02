@@ -2,7 +2,7 @@ import img1 from '../assets/ShepherdHero.jpg';
 import img2 from '../assets/general.jpg';
 import img3 from '../assets/battle1.jpg';
 import { GiBookCover } from 'react-icons/gi';
-import { MdInfo, MdGrade } from 'react-icons/md';
+import { MdInfo } from 'react-icons/md';
 import { GoPerson } from 'react-icons/go';
 const About = () => {
   return (
@@ -34,6 +34,7 @@ const About = () => {
             mx:w-[25vw]
             lg:h-[35vh]
             ll:w-[20vw]
+            rr:w-[15vw]
             "
             />
             <p
@@ -62,6 +63,7 @@ const About = () => {
           mx:text-2xl
           ll:mt-3
           xx:mt-4
+          rr:mt-9
           "
             >
               Led by an undefeated general with a penchant for cruelty, this
@@ -90,6 +92,7 @@ const About = () => {
           mx:text-2xl
           ll:mt-4
           xx:mt-4
+          rr:mt-9
           
           "
             >

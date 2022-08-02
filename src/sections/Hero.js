@@ -1,7 +1,7 @@
 import Button from '../ui/Button';
 const Hero = () => {
   return (
-    <div className="bg-orange-600">
+    <div className="bg-orange-600 ">
       <header
         className="p-2 overflow-x-hidden overflow-y-hidden  text-center 
         
@@ -26,7 +26,7 @@ const Hero = () => {
         ms:mb-[19vh]
         mx:mb-[23vh]
         ll:-mt-28
-        rr:-mt-36
+        rr:-mt-20
         
         "
         >
@@ -49,13 +49,14 @@ const Hero = () => {
 
         <div className="">
           <Button
-            className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center
+            className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
           xs:mb-[24vh] 
           xp:mb-[30vh]
           sm:tracking-wide sm:px-4 sm:py-4 sm:mb-[30vh]
           ms:mb-[29vh]
           mx:mb-[32vh]
-          ll:mt-[0vh] ll:mb-[33vh]
+          ll:mt-[0vh] ll:mb-[32vh]
+          xx:px-3 rr:py-3
           
           "
           >
@@ -73,7 +74,7 @@ const Hero = () => {
           <p>
             Published by:{' '}
             <a
-              className="text-yellow-500"
+              className="text-orange-600"
               href="https://trinityhillspublishing.com/"
               target="_blank"
               rel="noreferrer"

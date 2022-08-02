@@ -1,13 +1,9 @@
 import review1 from '../assets/review1.jpg';
 import review2 from '../assets/review2.jpg';
-import review3 from '../assets/review3.jpg';
-import review4 from '../assets/review4.jpg';
-import review5 from '../assets/review5.jpg';
 import review6 from '../assets/review6.jpg';
 import review7 from '../assets/review7.jpg';
 import review8 from '../assets/review8.jpg';
-import review9 from '../assets/review9.jpg';
-import review10 from '../assets/review10.jpg';
+
 import review11 from '../assets/review11.jpg';
 import review12 from '../assets/review12.jpg';
 import review13 from '../assets/review13.jpg';
