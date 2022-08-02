@@ -7,6 +7,7 @@ const Footer = () => {
       <section
         className="w-[100vw] max-w-[1200px] mx-auto h-[15vh] bg-orange-300  font-economica p-2
     xs:h-[17vh]
+    sm:h-[19vh]
     xp:h-[15vh]
     ms:h-[20vh]
     ll:h-[32vh]

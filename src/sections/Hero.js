@@ -8,13 +8,13 @@ const Hero = () => {
       "
       >
         <div className="font-thin lg:text-lg">
-          <p className=" font-economica text-orange-200 ">
+          <p className=" font-economica text-orange-700 ">
             Written in dedication of{' '}
             <a
               href="https://www.freeashley.org"
               target="_blank"
               rel="noreferrer"
-              className="text-yellow-500 tracking-wide "
+              className="text-orange-100 tracking-wide "
             >
               Ashley Oosthuizen
             </a>
@@ -33,7 +33,7 @@ const Hero = () => {
           <h1
             className="text-5xl text-orange-700 font-playfair font-bold
           sm:mt-14
-          sm:text-6xl
+          
           mx:text-7xl mx:mt-24
           "
           >
@@ -52,7 +52,7 @@ const Hero = () => {
             className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center
           xs:mb-[24vh] 
           xp:mb-[30vh]
-          sm:tracking-wide sm:px-4 sm:py-4
+          sm:tracking-wide sm:px-4 sm:py-4 sm:mb-[31vh]
           ms:mb-[29vh]
           mx:mb-[32vh]
           ll:mt-[0vh] ll:mb-[33vh]

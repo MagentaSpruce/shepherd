@@ -9,6 +9,7 @@ const About = () => {
     <div className="bg-orange-600">
       <section
         className="w-[100vw] max-w-[600px] h-[100vh] bg-orange-600 mx-auto
+        sm:h-[105vh]
       lg:h-[165vh]
       ll:h-[165vh]
       xx:h-[150vh]
