@@ -105,6 +105,7 @@ function Form({ getFormData }) {
           <Button
             className="text-center bg-orange-600 rounded-lg shadow-md px-3 py-1  mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider text-orange-300 font-semibold
             xp:mt-4
+            sm:mt-2
             mx:text-xl mx:mt-8
             xx:mt-4
           "

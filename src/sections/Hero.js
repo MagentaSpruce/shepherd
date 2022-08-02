@@ -7,7 +7,7 @@ const Hero = () => {
         
       "
       >
-        <div className="font-thin lg:text-lg">
+        <div className=" lg:text-lg">
           <p className=" font-economica text-orange-700 ">
             Written in dedication of{' '}
             <a
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
         <div
           className=" pt-[10vh] mb-[31vh]
-        sm:mb-[26vh]
+        sm:mb-[23vh]
         ms:mb-[19vh]
         mx:mb-[23vh]
         lg:-mt-28

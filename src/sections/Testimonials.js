@@ -7,7 +7,7 @@ const Testimonials = () => {
         className="w-[100vw] h-[117vh] max-w-[1200px] bg-orange-600 mx-auto
     xs:h-[128vh]
     xp:h-[108vh]
-    sm:h-[110vh]
+    sm:h-[120vh]
     ms:h-[115vh]
     mx:h-[85vh]
     ll:h-[145vh]
