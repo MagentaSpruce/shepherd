@@ -45,6 +45,7 @@ const About = () => {
           lg:mt-1
           ll:mt-4
           xx:mt-4
+          rr:mt-9
 
           "
             >
@@ -96,9 +97,9 @@ const About = () => {
           
           "
             >
-              Finding out only all too late that the little shepherd boy was
-              much more than what he seemed, the unconquerable general is led to
-              his doom.
+              Finding out only all too late that the little shepherd boy was not
+              at all what he had seemed, the unconquerable general and his army
+              are led to their doom.
             </p>
           </div>
         </div>

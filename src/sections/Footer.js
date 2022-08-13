@@ -39,7 +39,7 @@ const Footer = () => {
             mx:mr-5
           "
             >
-              Trinity Hills Publishing
+              Who Knows Publishing
             </p>
           </div>
           <div

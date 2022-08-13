@@ -42,7 +42,7 @@ const people = [
     name: 'Susan Dougles',
 
     quote:
-      'This book does not hold any punches. Wow. What a well done and fascinating dive into what must have been a supremely brutal era. Bravo!',
+      'Wow. What a well done and fascinating dive into what must have been a supremely difficult era. Bravo!',
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const people = [
     name: 'Jason Toma',
 
     quote:
-      "I got this book to help that poor girl in Thai prison. Despite being very violent and brutal at times, everything was done very well. I'll be sure to buy the next one whenever it comes out. #FreeAshley",
+      "This is the best war story I've read in a really long time. Epic battle scenes. Really loved the characters Yusri and Grieves as well. I hope they make it to book 2!",
   },
   {
     id: 11,
@@ -83,7 +83,7 @@ const people = [
     name: 'Henriqa Sanchez',
 
     quote:
-      "Wow! This is the best war story I've read in a really long time. Epic battle scenes. Really loved the characters Yusri and Grieves as well. I hope they make it to book 2!",
+      "I got this book to help that poor girl in Thai prison. Despite being brutal at times, everything was done very tastefully. I'll be sure to buy the next one whenever it comes out. #FreeAshleyWow! ",
   },
   {
     id: 15,
@@ -99,7 +99,7 @@ const people = [
     name: 'Richard Penstock',
 
     quote:
-      "Highly recommended for anyone who loves a good story. Hard to swallow at some points but super enjoyable overall. I'll keep on the lookout for book two!",
+      "Highly recommended for anyone who loves a good story. Really intense at some points but super enjoyable overall. I'll keep on the lookout for book two!",
   },
 ];
 

@@ -14,7 +14,7 @@ const Hero = () => {
               href="https://www.freeashley.org"
               target="_blank"
               rel="noreferrer"
-              className="text-orange-100 tracking-wide "
+              className="text-orange-200 tracking-wide "
             >
               Ashley Oosthuizen
             </a>
@@ -70,7 +70,7 @@ const Hero = () => {
         xx:-mt-6
         "
         >
-          <p>Authored by: Tristan Nettles</p>
+          <p>Authored by: Ashley Oosthuizen</p>
           <p>
             Published by:{' '}
             <a
@@ -79,7 +79,7 @@ const Hero = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Trinity Hills Publishing
+              Who Knows Publishing
             </a>
           </p>
         </div>

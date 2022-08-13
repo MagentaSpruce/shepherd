@@ -30,8 +30,8 @@ const Testimonials = () => {
             className="sm:text-lg 
         mx:text-xl"
           >
-            95% of all author profits for every book sold will be expressly used
-            for helping to win in the fight to #FreeAshley.
+            100% of all author profits for every book sold will be expressly
+            used for helping to win in the fight to #FreeAshley.
           </p>
         </div>
         <div
