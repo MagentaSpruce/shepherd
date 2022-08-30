@@ -32,7 +32,7 @@ const Footer = () => {
             xx:ml-5
             
             "
-              onClick={() => window.open('https://trinityhillspublishing.com/')}
+              onClick={() => window.open('https://google.com/')}
             />
             <p
               className="sm:ml-1 sm:mt-1

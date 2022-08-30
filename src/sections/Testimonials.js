@@ -50,7 +50,7 @@ const Testimonials = () => {
             target="_blank"
             rel="noreferrer"
           >
-            freeashley.org
+            #
           </a>
         </div>
         <div className="text-center">
