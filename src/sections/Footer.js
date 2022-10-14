@@ -39,7 +39,7 @@ const Footer = () => {
             mx:mr-5
           "
             >
-              Histria Books
+              {/* Histria Books */}
             </p>
           </div>
           <div
