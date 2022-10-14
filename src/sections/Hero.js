@@ -11,7 +11,7 @@ const Hero = () => {
           <p className=" font-economica text-orange-700 ">
             Written in dedication of{' '}
             <a
-              href="#"
+              href="https://www.freeashley.org"
               target="_blank"
               rel="noreferrer"
               className="text-orange-200 tracking-wide "
@@ -70,16 +70,16 @@ const Hero = () => {
         xx:-mt-6
         "
         >
-          <p>Authored by: Ashley Oosthuizen</p>
+          <p>Authored by: Tristan Nettles</p>
           <p>
             Published by:{' '}
             <a
               className="text-orange-600"
-              href="https://google.com/"
+              href="https://histriabooks.com/"
               target="_blank"
               rel="noreferrer"
             >
-              Who Knows Publishing
+              Histria Books
             </a>
           </p>
         </div>

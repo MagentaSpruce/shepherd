@@ -50,7 +50,7 @@ const Testimonials = () => {
             target="_blank"
             rel="noreferrer"
           >
-            #
+            Ashley Oosthuizen
           </a>
         </div>
         <div className="text-center">

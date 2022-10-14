@@ -1,4 +1,4 @@
-import TrinityHills from '../assets/trinityhills.png';
+import HistriaBooks from '../assets/histria.png';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -23,8 +23,8 @@ const Footer = () => {
         mx:w-[200px] mx:text-base"
           >
             <img
-              src={TrinityHills}
-              alt="Trinity Hills Publishing House Logo"
+              src={HistriaBooks}
+              alt="Histria Books Publishing Logo"
               className="w-[15vw] ml-1 pt-1
             sm:mt-2
             mx:ml-6 
@@ -32,14 +32,14 @@ const Footer = () => {
             xx:ml-5
             
             "
-              onClick={() => window.open('https://google.com/')}
+              onClick={() => window.open('https://histriabooks.com/')}
             />
             <p
               className="sm:ml-1 sm:mt-1
             mx:mr-5
           "
             >
-              Who Knows Publishing
+              Histria Books
             </p>
           </div>
           <div
