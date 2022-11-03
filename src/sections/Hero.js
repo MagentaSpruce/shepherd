@@ -11,7 +11,7 @@ const Hero = () => {
           <p className=" font-economica text-orange-700 ">
             Written in dedication of{' '}
             <a
-              href="https://www.freeashley.org"
+              href="https://www.ashleydefi.com"
               target="_blank"
               rel="noreferrer"
               className="text-orange-200 tracking-wide "

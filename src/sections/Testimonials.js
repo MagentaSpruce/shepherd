@@ -46,7 +46,7 @@ const Testimonials = () => {
           </p>
           <a
             className="mx-auto text-amber-400 tracking-wide mx:text-xl"
-            href="https://www.freeashley.org"
+            href="https://www.ashleydefi.com"
             target="_blank"
             rel="noreferrer"
           >
