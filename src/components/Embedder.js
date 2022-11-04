@@ -13,8 +13,8 @@ const Embedder = ({ source }) => {
   // const src = source;
 
   const docs = [
-    { uri: require('../assets/excerpt.pdf') },
-    { uri: require('../assets/excerpt.pdf') },
+    { uri: require('../assets/finalExcerpt.pdf') },
+    { uri: require('../assets/finalExcerpt.pdf') },
   ];
 
   return (
