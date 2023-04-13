@@ -105,7 +105,7 @@ function Form({ getFormData }) {
         </div>
         {!alert.show && (
           <Button
-            className="text-center bg-orange-600 rounded-lg shadow-md px-3 py-1  mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider text-orange-300 font-semibold
+            className="text-center bg-orange-600 rounded-md shadow-md px-3 py-1  mt-2 shadow-orange-500 hover:scale-110 active:scale-100 cursor-pointer transition-all text-xl tracking-wider text-orange-300 font-semibold
             xp:mt-3
             sm:mt-2
             mx:text-xl mx:mt-8
