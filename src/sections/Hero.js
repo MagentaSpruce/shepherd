@@ -48,8 +48,14 @@ const Hero = () => {
         </div>
 
         <div className="">
-          <Button
-            className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
+          <a
+            href="https://www.amazon.com/Shepherd-Bronze-Age-Tale-ebook/dp/B0C1T48ZCJ/ref=sr_1_1?crid=1690Z7O2D90Z6&keywords=tristan+nettles&qid=1682034884&sprefix=tristan+nettles%2Caps%2C113&sr=8-1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            <Button
+              className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
           xs:mb-[24vh] 
           xp:mb-[30vh]
           sm:tracking-wide sm:px-4 sm:py-4 sm:mb-[30vh]
@@ -59,9 +65,10 @@ const Hero = () => {
           xx:px-3 rr:py-3
           
           "
-          >
-            Buy Now
-          </Button>
+            >
+              Buy Now
+            </Button>
+          </a>
         </div>
         <div
           className="text-orange-200

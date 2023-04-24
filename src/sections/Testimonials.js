@@ -54,14 +54,20 @@ const Testimonials = () => {
           </a>
         </div>
         <div className="text-center">
-          <Button
-            className="px-3 py-3 bg-orange-300  shadow-xl shadow-amber-500 text-orange-500 font-bold mb-[28vh] text-2xl text-center border-4 border-amber-500
+          <a
+            href="https://www.amazon.com/Shepherd-Bronze-Age-Tale-ebook/dp/B0C1T48ZCJ/ref=sr_1_1?crid=1690Z7O2D90Z6&keywords=tristan+nettles&qid=1682034884&sprefix=tristan+nettles%2Caps%2C113&sr=8-1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              className="px-3 py-3 bg-orange-300  shadow-xl shadow-amber-500 text-orange-500 font-bold mb-[28vh] text-2xl text-center border-4 border-amber-500
           mt-7 rounded-xl hover:scale-110 active:scale-100 cursor-pointer transition-all
           sm:tracking-wide 
           mx:px-4 mx:py-4 mx:mt-10"
-          >
-            Buy Now
-          </Button>
+            >
+              Buy Now
+            </Button>
+          </a>
         </div>
       </section>
     </div>
