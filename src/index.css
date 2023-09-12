@@ -47,30 +47,3 @@ article.prevSlide {
   border-radius: 1rem;
   margin-bottom: 0.5rem;
 }
-
-header {
-  background: url('./assets/ShepherdHeroAlt.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  max-width: 1600px;
-  margin: 0 auto;
-  filter: sepia(0.1);
-  filter: brightness(120%);
-}
-
-header::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -2;
-
-  /* background: rgba(0, 0, 0, 0.2);
-
-  box-shadow: inset 8rem 6rem 20rem #000, inset -8rem -6rem 20rem #000; */
-}

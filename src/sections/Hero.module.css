@@ -1,0 +1,84 @@
+.heroContainer {
+  position: relative;
+}
+
+.background {
+  background-image: url('../assets/ShepherdHeroAlt.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1600px;
+  z-index: -1;
+  filter: sepia(0.1) brightness(120%);
+}
+
+.bookCover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.buyButtonContainer {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+@media (min-width: 280px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 80%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 360px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 82%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 375px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 85%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 390px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 81%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 400px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 81%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 540px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 86%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 768px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 86%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 820px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 86%; /* Adjust the vertical position */
+  }
+}

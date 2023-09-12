@@ -1,8 +1,17 @@
 import Button from '../ui/Button';
+import HeroImg from '../assets/hero.jpg';
+import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <div className="bg-orange-600 ">
+    <div className={`${styles.heroContainer}bg-orange-600 h-[100vh]`}>
+      <div className={styles.background}></div>
+      <img
+        src={HeroImg}
+        alt="The Shepherd - A Bronze Age Tale Book Cover"
+        className={styles.bookCover}
+      />
+
       <header
         className="p-2 overflow-x-hidden overflow-y-hidden  text-center 
         
@@ -15,7 +24,7 @@ const Hero = () => {
               href="https://www.freeashley.org"
               target="_blank"
               rel="noreferrer"
-              className="text-orange-200 tracking-wide "
+              className="text-white tracking-wide "
             >
               Ashley Oosthuizen
             </a>
@@ -32,7 +41,7 @@ const Hero = () => {
         "
         >
           <h1
-            className="text-5xl text-orange-700 font-playfair font-bold
+            className="text-5xl text-orange-700 font-playfair font-bold invisible
           sm:mt-14
           
           mx:text-7xl mx:mt-24
@@ -41,36 +50,13 @@ const Hero = () => {
             The Shepherd
           </h1>
           <h2
-            className="text-amber-700  mb-[8vh] text-3xl
+            className="text-amber-700 invisible mb-[8vh] text-3xl
           mx:text-4xl"
           >
             A Bronze Age Tale
           </h2>
         </div>
 
-        <div className="">
-          <a
-            href="https://www.amazon.com/Shepherd-Bronze-Age-Tale-ebook/dp/B0C1T48ZCJ/ref=sr_1_1?crid=1690Z7O2D90Z6&keywords=tristan+nettles&qid=1682034884&sprefix=tristan+nettles%2Caps%2C113&sr=8-1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {' '}
-            <Button
-              className="px-3 py-3 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
-          xs:mb-[24vh] 
-          xp:mb-[30vh]
-          sm:tracking-wide sm:px-4 sm:py-4 sm:mb-[30vh]
-          ms:mb-[29vh]
-          mx:mb-[32vh]
-          ll:mt-[0vh] ll:mb-[32vh]
-          xx:px-3 rr:py-3
-          
-          "
-            >
-              Buy Now
-            </Button>
-          </a>
-        </div>
         <div
           className="text-orange-200
         lg:-mt-10
@@ -92,6 +78,24 @@ const Hero = () => {
           </p>
         </div>
       </header>
+      <div className={styles.buyButtonContainer}>
+        <a
+          href="https://www.amazon.com/Shepherd-Bronze-Age-Tale-ebook/dp/B0C1T48ZCJ/ref=sr_1_1?crid=1690Z7O2D90Z6&keywords=tristan+nettles&qid=1682034884&sprefix=tristan+nettles%2Caps%2C113&sr=8-1"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+          <Button
+            className={`${styles.buyButton}px-3 py-3 sm:py-3 sm:px-4 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
+         
+          sm:tracking-wide  sm:
+          
+          `}
+          >
+            Buy Now
+          </Button>
+        </a>
+      </div>
     </div>
   );
 };
