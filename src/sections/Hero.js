@@ -1,4 +1,5 @@
 import Button from '../ui/Button';
+
 const Hero = () => {
   return (
     <div className="bg-orange-600 ">
@@ -21,7 +22,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className=" pt-[10vh] mb-[31vh]
+          className=" relative pt-[10vh] mb-[31vh]
         sm:mb-[23vh]
         ms:mb-[19vh]
         mx:mb-[23vh]

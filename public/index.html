@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="The Shepherd - A Bronze Age Tale"
+      content="A young shepherd boy living between the no mans land of civilzation and beyond is taken and made slave by an invading army enroute to his homeland. Led by an undefeated general with a penchant for cruelty, this unassuming adolescent careens his way into the commanders good graces through a witless charm. Finding out only all too late that the little shepherd boy was not at all what he had seemed, the unconquerable general and his army are led to their doom."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -27,6 +27,19 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>The Shepherd</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-11211120595"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-11211120595');
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,5 +54,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      gtag('event', 'conversion', {
+        send_to: 'AW-11159423606/t0XXCLLIoOAYEPaUnckp',
+      });
+    </script>
   </body>
 </html>
