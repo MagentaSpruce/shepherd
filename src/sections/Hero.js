@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
 
         <div
-          className="text-orange-200
+          className="text-orange-200 invisible
         lg:-mt-10
         ll:-mt-11
         xx:-mt-6
@@ -86,7 +86,7 @@ const Hero = () => {
         >
           {' '}
           <Button
-            className={`${styles.buyButton}px-3 py-3 sm:py-3 sm:px-4 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
+            className={`${styles.buyButton}px-3 py-3 xxs:py-3 xxs:px-4 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
          
           sm:tracking-wide  sm:
           

@@ -13,8 +13,8 @@ const Embedder = ({ source }) => {
   // const src = source;
 
   const docs = [
-    { uri: require('../assets/webFeed.pdf') },
-    { uri: require('../assets/webFeed.pdf') },
+    { uri: require('../assets/WebsiteVersion.pdf') },
+    { uri: require('../assets/WebsiteVersion.pdf') },
   ];
 
   return (

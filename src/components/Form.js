@@ -2,6 +2,10 @@ import { useRef, useState } from 'react';
 import Button from '../ui/Button';
 // import Input from '../ui/Input';
 import Alert from './Alert';
+import { getDatabase, ref, push } from 'firebase/database';
+import app from '../firebase';
+
+const database = getDatabase(app);
 
 function Form({ getFormData }) {
   const nameRef = useRef();
@@ -13,9 +17,29 @@ function Form({ getFormData }) {
     type: '',
   });
 
-  const handleSubmit = e => {
-    isSubmitting(true);
+  // const handleSubmit = async e => {
+  //   e.preventDefault();
+  //   isSubmitting(true);
+
+  //   const name = nameRef.current.value;
+  //   const email = emailRef.current.value;
+
+  //   const formData = {
+  //     name: name,
+  //     email: email,
+  //   };
+
+  //   console.log(formData);
+  //   nameRef.current.value = '';
+  //   emailRef.current.value = '';
+  //   getFormData(formData);
+  //   isSubmitting(false);
+  //   showAlert('success', 'Results submitted', true);
+  // };
+
+  const handleSubmit = async e => {
     e.preventDefault();
+    isSubmitting(true);
 
     const name = nameRef.current.value;
     const email = emailRef.current.value;
@@ -25,12 +49,19 @@ function Form({ getFormData }) {
       email: email,
     };
 
-    console.log(formData);
+    // Send the form data to Firebase
+    try {
+      const databaseRef = ref(database, 'formData'); // Replace 'formData' with your desired database path
+      await push(databaseRef, formData);
+      showAlert('success', 'Results submitted', true);
+    } catch (error) {
+      showAlert('error', `Firebase error: ${error.message}`, true);
+      console.error('Firebase error: ', error);
+    }
+
     nameRef.current.value = '';
     emailRef.current.value = '';
-    getFormData(formData);
     isSubmitting(false);
-    showAlert('success', 'Results submitted', true);
   };
 
   const showAlert = (type = '', msg = '', show = false) => {

@@ -9,8 +9,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   max-width: 1600px;
   z-index: -1;
   filter: sepia(0.1) brightness(120%);
@@ -39,17 +39,26 @@
   .buyButtonContainer {
     top: 80%; /* Adjust the vertical position */
   }
+  .bookCover {
+    max-height: 90%;
+  }
 }
 @media (min-width: 360px) {
   /* Adjust the breakpoint as needed for your mobile layout */
   .buyButtonContainer {
-    top: 82%; /* Adjust the vertical position */
+    top: 85%; /* Adjust the vertical position */
+  }
+  .bookCover {
+    max-height: 90%;
   }
 }
 @media (min-width: 375px) {
   /* Adjust the breakpoint as needed for your mobile layout */
   .buyButtonContainer {
-    top: 85%; /* Adjust the vertical position */
+    top: 87%; /* Adjust the vertical position */
+  }
+  .bookCover {
+    max-height: 90%;
   }
 }
 @media (min-width: 390px) {
@@ -57,11 +66,17 @@
   .buyButtonContainer {
     top: 81%; /* Adjust the vertical position */
   }
+  .bookCover {
+    max-height: 90%;
+  }
 }
 @media (min-width: 400px) {
   /* Adjust the breakpoint as needed for your mobile layout */
   .buyButtonContainer {
-    top: 81%; /* Adjust the vertical position */
+    top: 87%; /* Adjust the vertical position */
+  }
+  .bookCover {
+    max-height: 90%;
   }
 }
 @media (min-width: 540px) {
@@ -80,5 +95,11 @@
   /* Adjust the breakpoint as needed for your mobile layout */
   .buyButtonContainer {
     top: 86%; /* Adjust the vertical position */
+  }
+}
+@media (min-width: 1080px) {
+  /* Adjust the breakpoint as needed for your mobile layout */
+  .buyButtonContainer {
+    top: 89%; /* Adjust the vertical position */
   }
 }

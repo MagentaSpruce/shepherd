@@ -104,13 +104,13 @@ const About = () => {
           </div>
         </div>
         <h3
-          className="text-center text-2xl underline underline-offset-[6px] pt-2
+          className="text-center text-2xl underline underline-offset-[3px] pt-2
         xs:pt-0
       ms:pt-0
       mx:text-3xl
       lg:mt-8 lg:mb-8"
         >
-          At a glance
+          At a Glance
         </h3>
         <div
           className="flex justify-center gap-5 mt-[4vh] font-semibold
