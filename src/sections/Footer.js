@@ -5,18 +5,20 @@ const Footer = () => {
   return (
     <div className="bg-orange-300">
       <section
-        className="w-[100vw] max-w-[1200px] mx-auto h-[15vh] bg-orange-300  font-economica p-2
+        className="w-[100vw] max-w-[1800px] mx-auto h-[15vh] bg-orange-300  font-economica p-2
     xs:h-[17vh]
     sm:h-[19vh]
     xp:h-[15vh]
     ms:h-[20vh]
     ll:h-[32vh]
     xx:h-[35vh]
+    rr:h-[30vh]
+    gg:h-[25vh]
     "
       >
         <div
           className="flex justify-around items-center
-      mx:justify-between mx:mt-6"
+      mx:justify-between mx:mt-6 "
         >
           <div
             className="w-[70px] text-xs flex flex-col justify-center
@@ -49,17 +51,27 @@ const Footer = () => {
           >
             <h2
               className="text-3xl
-          mx:text-5xl "
+          mx:text-5xl 
+          xx:text-6xl
+          rr:text-7xl"
             >
               The Shepherd
             </h2>
-            <h3 className="mx:text-xl">A Bronze Age Tale</h3>
+            <h3
+              className="mx:text-xl 
+            xx:text-3xl
+            rr:text-4xl"
+            >
+              A Bronze Age Tale
+            </h3>
           </div>
           <div>
             <p
               className="text-xs
           mx:text-xl
-          ll:mr-5"
+          ll:mr-5 
+          xx:text-3xl
+          rr:text-4xl"
             >
               #FreeAshley
             </p>
@@ -68,7 +80,9 @@ const Footer = () => {
         <p
           className="text-center -mt-2 ml-2 text-sm text-orange-600
       mx:ml-8
-      xx:ml-6"
+      xx:ml-6 
+      xx:text-2xl
+      rr:text-3xl"
         >
           {year}
         </p>

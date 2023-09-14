@@ -9,7 +9,11 @@ const Sample = () => {
       >
         <h2
           className="text-center pt-2 text-2xl mb-2 font-medium
-      lg:text-3xl"
+      lg:text-3xl
+      xx:text-5xl
+      rr:text-6xl
+      gg:text-7xl"
+          style={{ fontFamily: "'Macondo', cursive" }}
         >
           Read an excerpt:
         </h2>

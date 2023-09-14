@@ -29,7 +29,11 @@ const Email = () => {
       xp:mb-2
       sm:text-2xl
       ms:-mt-4
-      ll:mt-0"
+      ll:mt-0
+      xx:text-4xl
+      rr:text-4xl
+      gg:text-5xl"
+        style={{ fontFamily: "'Macondo', cursive" }}
       >
         Email the Author
       </h2>

@@ -18,7 +18,10 @@ const Hero = () => {
       "
       >
         <div className=" lg:text-lg">
-          <p className=" font-economica text-orange-700 ">
+          <p
+            className=" font-economica text-orange-700 rr:text-3xl
+          gg:text-3xl"
+          >
             Written in dedication of{' '}
             <a
               href="https://www.freeashley.org"
@@ -88,7 +91,8 @@ const Hero = () => {
           <Button
             className={`${styles.buyButton}px-3 py-3 xxs:py-3 xxs:px-4 bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold mb-[28vh] text-2xl text-center hover:scale-110 active:scale-100 cursor-pointer transition-all
          
-          sm:tracking-wide  sm:
+          sm:tracking-wide  rr:text-5xl
+          gg:text-6xl
           
           `}
           >

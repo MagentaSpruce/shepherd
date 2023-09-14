@@ -79,8 +79,9 @@ const Slider = () => {
         ms:gap-[58vw]
         mx:gap-[60.5vw]
         ll:gap-[45.5vw]
-        xx:gap-[36.2vw]
-        rr:gap-[31vw]
+        xx:gap-[36vw]
+        rr:gap-[30vw]
+        gg:gap-[24vw]
         "
         >
           <Button

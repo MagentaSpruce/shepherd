@@ -12,6 +12,12 @@ module.exports = {
     },
 
     extend: {
+      fontSize: {
+        '8xl': '6rem',
+        '9xl': '7rem',
+        '10xl': '8rem',
+        '11xl': '9rem',
+      },
       fontFamily: {
         economica: 'Economica, sans-serif',
         playfair: 'Playfair Display SC, serif',
@@ -24,6 +30,7 @@ module.exports = {
         ll: '1023px',
         xx: '1279px',
         rr: '1535px',
+        gg: '1800px',
       },
       flex: {
         2: '2 2 0%',

@@ -10,8 +10,7 @@
   top: 0;
   left: 0;
   height: 100vh;
-  width: 100vw;
-  max-width: 1600px;
+  width: 100%;
   z-index: -1;
   filter: sepia(0.1) brightness(120%);
 }
@@ -73,12 +72,13 @@
 @media (min-width: 400px) {
   /* Adjust the breakpoint as needed for your mobile layout */
   .buyButtonContainer {
-    top: 87%; /* Adjust the vertical position */
+    top: 88%; /* Adjust the vertical position */
   }
   .bookCover {
     max-height: 90%;
   }
 }
+
 @media (min-width: 540px) {
   /* Adjust the breakpoint as needed for your mobile layout */
   .buyButtonContainer {
